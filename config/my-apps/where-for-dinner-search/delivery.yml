@@ -65,7 +65,7 @@ spec:
           value: mysql
         - name: JAVA_TOOL_OPTIONS
           value: -Dmanagement.endpoint.health.probes.add-additional-paths="true" -Dmanagement.endpoint.health.show-details="always" -Dmanagement.endpoints.web.base-path="/actuator" -Dmanagement.endpoints.web.exposure.include="*" -Dmanagement.health.probes.enabled="true" -Dmanagement.server.port="8081" -Dserver.port="8080"
-        image: dev.registry.tanzu.vmware.com/tap-ci/ci-pipeline/apps-06-05-2024-20-45-47-040307998/where-for-dinner-search-my-apps@sha256:90f394cf41550b2b3635f585114ad1b7af80cb31d4a5f9d74f2efe426b89f490
+        image: dev.registry.tanzu.vmware.com/tap-ci/ci-pipeline/apps-06-05-2024-20-45-47-040307998/where-for-dinner-search-my-apps@sha256:6074541460716159e5bc3922cd7162d0c963bc5f756f260e6c24cdc9bf6b753a
         livenessProbe:
           httpGet:
             path: /livez
